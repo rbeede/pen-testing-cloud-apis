@@ -41,11 +41,14 @@ $Env:CLOUDSDK_CORE_custom_ca_certs_file = "$pwd\burp-ca.cer"
 # if needed
 #    $Env:PATH = "$Env:USERPROFILE\AppData\Local\Programs\Python\Python313;$Env:PATH"
 
+# if needed
+#	$Env:PATH = "$Env:USERPROFILE\Downloads\google-cloud-sdk\bin\;$Env:PATH"
+
 cd .\cazt-main\trainee\cloud-clients\gcloud\
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
-python install-cazt-into-gcloud-cli-for-powershell
+python .\install-cazt-into-gcloud-cli-for-powershell.py
 
 
 cd $Env:USERPROFILE\Downloads
