@@ -5,7 +5,7 @@
 # git clone https://github.com/Coalfire-Research/cazt.git
 
 
-export LAB_IP=TODO
+export LAB_IP=203.0.113.20
 
 
 ping $LAB_IP
