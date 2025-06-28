@@ -7,7 +7,7 @@ Assumes you already installed gcloud, python3
 
 Assumes you already downloaded
 - `git clone https://github.com/Coalfire-Research/cazt.git`
-- `curl -O https://github.com/Coalfire-Research/cazt/archive/refs/heads/main.zip`
+  - Alt: `curl -O https://github.com/Coalfire-Research/cazt/archive/refs/heads/main.zip`
 
 ## Establish service address
 
