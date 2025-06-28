@@ -5,7 +5,7 @@
 Ensure that all setup per [](../client_setup/OpenStack_lab-command-line_linux.md) is complete.
 
 The end goal is to get successful XSS in a web browser.
-![image](https://github.com/user-attachments/assets/8e1da94d-23ee-4266-9c84-49a7a803057f)
+![image](xss-exercise-sample-screenshot.png)
 
 ## URL of frontend:
 
