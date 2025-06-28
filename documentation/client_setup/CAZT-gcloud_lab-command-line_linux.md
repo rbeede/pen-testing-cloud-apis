@@ -30,7 +30,7 @@ sudo apt install -y python3-venv
 
 # Burp Setup
 
-[](Burp_linux.md)
+[See Burp Doc](Burp_linux.md)
 
 ---
 
