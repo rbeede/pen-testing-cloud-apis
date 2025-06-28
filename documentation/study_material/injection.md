@@ -56,6 +56,17 @@ https://github.com/Coalfire-Research/paas-cloud-goat
 
 ---
 
+# URL Forms
+
+1. Lightning Tab = /lightning/o/CustomObject__c
+2. Lightning Tab = /lightning/o/Contacts (built-in)
+3. Apex Page = /apex/GuessPageName
+4. Salesforce Classic Experience = /a0/l
+   - List page
+   - Easier to iterate through a0, a1, b1, aa1, etc.
+
+---
+
 # Salesforce Vulnerabilities
 
 - XSS
