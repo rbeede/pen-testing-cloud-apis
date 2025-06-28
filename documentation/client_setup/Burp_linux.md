@@ -17,7 +17,8 @@ export CLOUDSDK_CORE_custom_ca_certs_file="`pwd`/burp-ca.cer"
 
 # Another gcloud alternative would be a custom profile with a gcloud config for custom_ca_certs_file
 # Environment variables are handy so you can easily open a new tab with no Burp applied to test connections
-```
+
 
 # For Python3
 export REQUESTS_CA_BUNDLE="`pwd`/burp-ca.cer"
+```
