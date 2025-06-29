@@ -6,8 +6,11 @@ Following the challenge at:
 https://github.com/Coalfire-Research/cazt/blob/main/documentation/lab_manual/scenarios/07-impersonation.md
 
 The end goal is to get a response that looks like:
-```
-TODO
+
+```json
+{
+  "Message": "123456789012 using impersonation arn:cloud:iam:us-texas-9:123456789012:FullAdmin"
+}
 ```
 
 ### Tips:
