@@ -13,9 +13,10 @@
 
 Change to workshop IP address if you can't get it to run locally:
 ```shell
-export LAB_IP=127.0.0.1
+# Change address if using workshop specific server
+export LAB_IP=cazt.us-texas-9.cloud.localtest.me
 
-ping $LAB_IP
+ping -c 2 $LAB_IP
 ```
 
 ## Add Python dependencies (some platforms)
