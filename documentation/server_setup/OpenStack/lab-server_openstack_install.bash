@@ -75,7 +75,7 @@ chown swift:swift /srv/node/vda1
 
 
 
-swift-init all stop
+swift-init all stop     || true
 
 #########
 #########
