@@ -1,6 +1,8 @@
 # Prerequisites
 
-Assumes you already installed gcloud, python3
+- Python3 installed
+- gcloud CLI installed (https://cloud.google.com/sdk/docs/install#linux)
+  - Also the `gcloud` command must be available in the system path
 - Note that download and install of gcloud can be slow
 - You may want the .tar.gz version instead (https://cloud.google.com/sdk/docs/install#linux)
 - Use of the docker image can result in sandboxing making it more difficult to attach Burp
@@ -45,7 +47,7 @@ pushd cazt/trainee/cloud-clients/gcloud/
 
 pwd
 
-sudo python3 install-cazt-into-gcloud-cli.py
+python3 install-cazt-into-gcloud-cli.py
 
 deactivate
 
