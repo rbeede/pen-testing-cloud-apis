@@ -10,7 +10,7 @@ Pre-setup virtual machine images are available in the repository releases page: 
 
 1. Ensure you have approximately 6GiB of free space
 1. Clone the workshop repo
-1. Go into the documentation/server_setup/OpenStack/ folder
+1. Go into the `documentation/server_setup/OpenStack/` folder
 
 `sudo bash lab-server_openstack_install.bash`
 
