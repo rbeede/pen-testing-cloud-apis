@@ -26,7 +26,7 @@ def main(argv):
     # Assumes lab OpenStack Swift has been setup and running from same box
     swift_opts = {
         "auth_version": "1.0",
-        "auth": "https://localhost:8080/auth/v1.0",
+        "auth": "https://localhost:8888/auth/v1.0",
         "user": "system:root",
         "key": "testpass",
         "insecure": True

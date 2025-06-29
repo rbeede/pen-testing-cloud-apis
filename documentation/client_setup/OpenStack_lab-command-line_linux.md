@@ -25,7 +25,7 @@ ping -c 2 $LAB_OPENSTACK_IP
 ```
 
 ```shell
-curl --insecure --include https://${LAB_OPENSTACK_IP}:8080/healthcheck
+curl --insecure --include https://${LAB_OPENSTACK_IP}:8888/healthcheck
 ```
 
 You should get back a response indicating the service is responding.
@@ -54,7 +54,7 @@ export PATH=$PATH:$HOME/.local/bin
 ## Validate the CLI can reach the simulator server
 
 ```shell
-swift --insecure --auth=https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K testpass --verbose stat
+swift --insecure --auth=https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass --verbose stat
 ```
 ## Burp Setup commands
 
@@ -66,7 +66,7 @@ export https_proxy=http://localhost:8080
 
 ##### Repeat test command with Burp HTTP proxy in-place
 ```shell
-swift --insecure --auth=https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K testpass --verbose stat
+swift --insecure --auth=https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass --verbose stat
 ```
 
 
@@ -75,9 +75,9 @@ swift --insecure --auth=https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:roo
 ```shell
 echo $USER > sample_object.txt
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K testpass upload bsides-workshop sample_object.txt
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload bsides-workshop sample_object.txt
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K testpass list
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass list
 ```
 
 ## Prepare sample data for XSS exercise
@@ -85,5 +85,5 @@ swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K
 ```shell
 echo $USER > sample_object.txt
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8080/auth/v1.0 -U system:root -K testpass upload fileuploads ./sample_object.txt
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload fileuploads ./sample_object.txt
 ```
