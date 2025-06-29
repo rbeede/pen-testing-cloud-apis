@@ -64,9 +64,9 @@ swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K
 
 # setup XSS example
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload fileuploads .\sample_object.txt
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload fileuploads sample_object.txt
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload fileuploads .\sugarskull-2019_orig.png
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U system:root -K testpass upload fileuploads sugarskull-2019_orig.png
 
 
 # setup IAM examples
