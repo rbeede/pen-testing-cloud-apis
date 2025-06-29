@@ -111,10 +111,10 @@ gcloud cazt create \
 ```shell
 gcloud cazt create \
     --api-endpoint-overrides=https://$LAB_IP:8443/uat \
-    --account=cazt_scen0_Setup-Any@123456789012  \
+    --account=cazt_scen0_Setup-Any@000000002222  \
     --format json \
     --name=NotMyMoggy \
-    --activity-log-object-storage=moggylitterbox-123456789012 
+    --activity-log-object-storage=moggylitterbox-000000002222
 ```
 
 ```shell
@@ -127,4 +127,4 @@ gcloud cazt run-activity \
 
 You now have two tenants (customers) accounts with sample data in them:
 - Account 000000001111 with MyMoggy
-- Account 123456789012 with NotMyMoggy
+- Account 000000002222 with NotMyMoggy
