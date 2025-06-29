@@ -34,17 +34,17 @@ You should get back a response indicating the service is responding.
 
 ## Setup the official OpenStack Swift CLI tool
 
+_Distro specific method_
+`sudo apt install python3-swiftclient`
+
 ##### Optional venv
 ```shell
-python3 -m venv venv
-```
+sudo apt-get install python3-venv python3-pip
 
-```shell
+python3 -m venv venv
+
 pip install python-swiftclient
 ```
-
-##### Alternative install method for distro
-`sudo apt install python3-swiftclient`
 
 ##### You might have to add the installed binary directory to your path
 ```shell
