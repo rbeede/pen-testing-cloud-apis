@@ -21,10 +21,14 @@ Pre-setup virtual machine images are available in the repository releases page: 
 
 ## Startup Steps
 
+### OpenStack Swift
+
 1. Objects will be persisted upon reboot
 1. After a reboot login to the server and execute
    - `sudo swift-init all start`
    - It is safe to ignore Unable to find XXX config section messages
+
+### Web UI Simulated App
    
 The simulated web UI should be run on the same server where swift is running and started as follows:
 1. Start a `screen` session so the server persists
