@@ -92,7 +92,7 @@ chmod u=rw,g=r,o= /etc/swift/*.conf
 
 
 
-swift-init all start
+swift-init all start     || true
 
 
 echo OpenStack Swift service installed and started, you may need to prepopulate test data
