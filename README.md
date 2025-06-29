@@ -24,19 +24,19 @@ An updated collection of resources used for a workshop on penetration testing of
 
 ## Workshop Structure
 1. [Study Material](documentation/study_material/README.md)
-  - Highlevel summary of concepts important for pen testing APIs
-  - More detailed explanations and examples for each high-level objective
+   - Highlevel summary of concepts important for pen testing APIs
+   - More detailed explanations and examples for each high-level objective
 1. [Server Simulator Setup](documentation/server_setup/)
-  - Technical steps for setup of the emulated cloud-service (server) components
-  - Permits take-home testing outside of the workshop material as well as reducing dependency on a working workshop conference Internet connection
+   - Technical steps for setup of the emulated cloud-service (server) components
+   - Permits take-home testing outside of the workshop material as well as reducing dependency on a working workshop conference Internet connection
 1. [Client-side Setup](documentation/client_setup/)
-  - Important details on required software for the pen tester
-  - Lesson material for how to get working cloud REST API calls into pen testing tools
+   - Important details on required software for the pen tester
+   - Lesson material for how to get working cloud REST API calls into pen testing tools
 1. [Exercises](documentation/exercises/README.md)
-  - Privilege Escalation
-  - IDOR/Confused Deputy to steal another tenant's (customer's) data
-  - Leveraging XSS via an API
-  - Bypass field encryption using injection vulnerabilities to access restricted data
+   - Privilege Escalation
+   - IDOR/Confused Deputy to steal another tenant's (customer's) data
+   - Leveraging XSS via an API
+   - Bypass field encryption using injection vulnerabilities to access restricted data
   
 ## Where to Start
 1. Setup the server simulator infrastructure
