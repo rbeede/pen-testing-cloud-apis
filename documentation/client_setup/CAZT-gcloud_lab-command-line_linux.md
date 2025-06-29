@@ -3,12 +3,10 @@
 - Python3 installed
 - gcloud CLI installed (https://cloud.google.com/sdk/docs/install#linux)
   - Also the `gcloud` command must be available in the system path
-- Note that download and install of gcloud can be slow
-- You may want the .tar.gz version instead (https://cloud.google.com/sdk/docs/install#linux)
-- Use of the docker image can result in sandboxing making it more difficult to attach Burp
-
-Assumes you already downloaded
-- `git clone https://github.com/Coalfire-Research/cazt.git`
+  - Note that download and install of gcloud can be slow
+  - You may want the .tar.gz version instead (https://cloud.google.com/sdk/docs/install#linux)
+  - Use of the docker image can result in sandboxing making it more difficult to attach Burp
+- Download of `git clone https://github.com/Coalfire-Research/cazt.git`
   - Alt: `curl -O https://github.com/Coalfire-Research/cazt/archive/refs/heads/main.zip`
 
 ## Establish service address
