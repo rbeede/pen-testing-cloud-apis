@@ -79,15 +79,15 @@ swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U codeerror:unex
 
 
 # Setup default uploads
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account1:normal -K expected upload deptdocs .\sugarskull-2019_orig.png
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account1:normal -K expected upload deptdocs .\sample_object.txt
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account1:normal -K expected upload deptdocs sugarskull-2019_orig.png
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account1:normal -K expected upload deptdocs sample_object.txt
 
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research .\super-secret-doc-for-account2-only.txt
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research ".\initials profile picture - small.png"
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research ".\fyi emoji.png"
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research super-secret-doc-for-account2-only.txt
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research "initials profile picture - small.png"
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account2:somebody -K else upload research "fyi emoji.png"
 
 # Hacker account
-swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen upload warez .\pumpkin.JPG
+swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen upload warez pumpkin.JPG
 ```
 
 
