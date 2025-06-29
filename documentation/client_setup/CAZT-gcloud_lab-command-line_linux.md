@@ -45,7 +45,7 @@ pushd cazt/trainee/cloud-clients/gcloud/
 
 pwd
 
-python3 install-cazt-into-gcloud-cli.py
+sudo python3 install-cazt-into-gcloud-cli.py
 
 deactivate
 
