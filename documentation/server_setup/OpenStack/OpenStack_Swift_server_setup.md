@@ -25,7 +25,7 @@ The simulated web UI should be run on the same server where swift is running and
 1. Start a `screen` session so the server persists
 1. You do _not_ need to be root
 1. `cd documentation/server_setup/OpenStack/`
-1. `python3 xss_python_swift_rest_api_server.py 9080
+1. `python3 xss_python_swift_rest_api_server.py 9080`
 
 ## Reset workshop data
 
