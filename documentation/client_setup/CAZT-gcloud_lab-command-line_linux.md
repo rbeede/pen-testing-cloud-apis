@@ -90,9 +90,13 @@ ip address show
 python3 main_http_endpoint_server.py
 ```
 
+Leave the server running.
+
 ---
 
 # Populate Sample Test Data
+
+In your terminal/shell/tab with Burp environment setup.
 
 ```shell
 gcloud cazt create \
