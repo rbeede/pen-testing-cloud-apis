@@ -23,7 +23,7 @@ Pre-setup virtual machine images are available in the repository releases page: 
 1. Objects will be persisted upon reboot
 1. After a reboot login to the server and execute
    - `sudo swift-init all start`
-   - An error about container missing can be ignored
+   - It is safe to ignore Unable to find XXX config section messages
    
 The simulated web UI should be run on the same server where swift is running and started as follows:
 1. Start a `screen` session so the server persists
