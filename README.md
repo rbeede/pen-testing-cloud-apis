@@ -41,7 +41,7 @@ An updated collection of resources used for a workshop on penetration testing of
 ## Where to Start
 1. Setup the server simulator infrastructure
 1. Setup your local pen testing client software
-1. Begin in the [Exercises] section
+1. Begin in the [Exercises](documentation/exercises/README.md) section
 
 ---
 
