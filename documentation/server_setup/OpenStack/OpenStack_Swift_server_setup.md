@@ -13,6 +13,7 @@ Pre-setup virtual machine images are available in the repository releases page: 
    - WSL2 by default does not
    - `sudo apt install xfsprogs`
    - `sudo modprobe -v xfs`
+1. Do not run hese setup steps while proxying through Burp
 1. Clone the workshop repo
 1. Go into the `documentation/server_setup/OpenStack/` folder
 
