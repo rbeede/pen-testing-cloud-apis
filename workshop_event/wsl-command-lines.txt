@@ -1,0 +1,23 @@
+# Assumes WSL2 on Windows 11
+#	No admin priv
+
+# Assumes wsl --list has other existing setups
+# This guide will use non-default names and does not need an existing distro
+
+cd .\Downloads\
+
+wsl --import-in-place Workshop .\AllInOne-Workshop-WSL2_v20yy-MM-dd.vhdx
+
+wsl --distribution Workshop
+
+
+# At this point you should be in a Linux bash shell
+
+cd $HOME
+
+cd WORKSHOP/
+
+./BurpSuiteCommunity/BurpSuiteCommunity &
+
+# note that this Burp is run INSIDE wsl so networking port access is shared correctly
+
