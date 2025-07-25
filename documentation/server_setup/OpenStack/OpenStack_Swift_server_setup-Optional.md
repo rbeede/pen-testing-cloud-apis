@@ -1,6 +1,6 @@
 # Supplemental OpenStack AuthZ Tests
 
-Assumes first setup was completed already and the local swift client is also available
+Assumes first setup was completed already and the local swift client is also available.
 
 ```shell
 
@@ -36,7 +36,11 @@ swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U account1:norma
 swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen list
 swift --insecure -A https://${LAB_OPENSTACK_IP}:8888/auth/v1.0 -U codeerror:unexpecteduser -K shouldnothappen list warez
 
+```
 
+### Spoiler Ahead
+
+```shell
 
 # Confused-Deputy Exploit
 
