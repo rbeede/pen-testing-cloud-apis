@@ -17,9 +17,9 @@
 - Worst vulnerability
   - Confused deputy or IDOR
   - One customer accessing the data of another customer
-- Premise of using a shared cloud service
-  - Cloud vendor make contractal agreements to protect data
-  - Customer has responsibility for their configuration controls still
+- Using a shared resource
+  - Cloud vendor makes contractal agreements to protect data
+  - Customer is still reponsible for sharing configuration
 
 ---
 
