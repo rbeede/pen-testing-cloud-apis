@@ -56,7 +56,7 @@
 - CSRF was possible
 - https://www.rodneybeede.com/security/cve-2019-5630.html
 
-# CVE-2019-5630
+## CVE-2019-5630
 
 - Back when Flash was still in browsers
   - Site with malicious csrf.swf
@@ -103,7 +103,7 @@ https://github.com/rbeede/CVE-2019-5630/blob/master/hack-py-redirect-server.py
 
 ---
 
-# API Types
+## API Types
 
 - REST
   - HTTP headers play big role
@@ -121,7 +121,7 @@ https://github.com/rbeede/CVE-2019-5630/blob/master/hack-py-redirect-server.py
 
 ---
 
-# Cloud Shared Responsibility Model
+## Cloud Shared Responsibility Model
 
 - Customer Responsibility
   - Configuration of customer account settings
@@ -136,7 +136,7 @@ https://github.com/rbeede/CVE-2019-5630/blob/master/hack-py-redirect-server.py
 
 ---
 
-# Cloud API Vulnerabilities
+## Cloud API Vulnerabilities
 
 - Confused-deputy
   - Mishandled user input & authorization leads to customer data exposure
@@ -155,7 +155,7 @@ https://github.com/rbeede/CVE-2019-5630/blob/master/hack-py-redirect-server.py
 
 ---
 
-# Discussion: API Input Fuzzing/Tampering
+## Discussion: API Input Fuzzing/Tampering
 
 - Param is some type of number?
   - currpage = 1
@@ -171,7 +171,7 @@ https://github.com/rbeede/CVE-2019-5630/blob/master/hack-py-redirect-server.py
 
 ---
 
-# Cloud Vendor Vulns
+## Cloud Vendor Vulns
 
   - No exact number
     - Internally discovered vulns not published
