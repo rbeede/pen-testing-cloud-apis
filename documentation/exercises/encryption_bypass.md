@@ -1,4 +1,4 @@
-# Encryped Field Data Access Bypass
+# Encrypted Field Data Access Bypass
 
 ## Salesforce
 
