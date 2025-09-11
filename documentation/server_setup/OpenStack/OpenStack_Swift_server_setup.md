@@ -10,8 +10,8 @@ Pre-setup virtual machine images are available in the repository releases page: 
 
 1. Ensure you have approximately 6GiB of free space
 1. Ensure your distro has the tools for XFS filesystem support
-   - WSL2 by default does not
-   - `sudo apt install xfsprogs`
+   - Ubuntu by default does not
+   - `sudo apt install -y xfsprogs`
    - `sudo modprobe -v xfs`
 1. Do not run these setup steps while proxying through Burp
 1. Clone the workshop repo
