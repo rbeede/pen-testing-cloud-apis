@@ -34,7 +34,7 @@
 
 ---
 
-## Paas Cloud Goat
+## PaaS Cloud Goat
 
 ![](img/paas_cloud_goat.png)
 
