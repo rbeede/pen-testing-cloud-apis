@@ -70,7 +70,7 @@ https://github.com/Coalfire-Research/paas-cloud-goat
 # Salesforce Vulnerabilities
 
 - XSS
-- SOQL Injection (Salesforce Object Querly Language)
+- SOQL Injection (Salesforce Object Query Language)
 - SOSL Injection (Salesforce Object Search Language)
 - Open Redirect
 - CSRF
